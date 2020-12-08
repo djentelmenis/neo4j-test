@@ -110,7 +110,7 @@ ORDER BY Name
 
 ## Query with a TOP n condition, a filtering condition, collect aggregation and nested sorting
 
-### Get questions that have more than one answer with the users providing the top 5 answers by their score
+### Get questions that have more than one answer with the users providing the top 3 answers by their score
 
 ```
 MATCH (u:User)-[:SUBMITTED]->(a:Answer)-[:POSTED_TO]->(q:Question)
